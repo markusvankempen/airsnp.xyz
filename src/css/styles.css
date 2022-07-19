@@ -502,7 +502,7 @@ mark,
   /*background-color: rgba(54, 54, 54, 0.445);*/
   margin: 10px;
   margin-bottom: 10px;
- 
+  height: 400px;
   width: 300px;
   font-size: .70rem;
 }
