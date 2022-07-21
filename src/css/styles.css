@@ -200,6 +200,9 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  height: 250px;
+  width: 300px;
+    
 }
 
 svg {
@@ -479,30 +482,44 @@ mark,
   height: auto;
 }
 
+@media (max-width: 1025px){
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .img-photos{
+    padding-bottom: 25px;
+  }
+
+  .img-quotes{
+    padding-bottom: 75px;
+  }
+}
+
 @media (min-width: 1025px) {
   .img-photos {
-    display: flex;
-    flex-grow: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*flex-grow: 0;*/
     /* border: red solid 1px; */
     justify-content: center;
-    padding-bottom: 150px;
+    
   }
   .img-photo {
-    flex-direction: row;
     object-fit: cover;
     object-position: top;
     margin: 30px;
     /* border: solid 1px red; */
-    height: 250px;
-    width: 300px;
+    
   }
 
   .img-quotes {
-    flex-direction: column;
     /* border: red solid 1px; */
     background-color: rgba(54, 54, 54, 0.445);
     margin: 40px;
     margin-bottom: 100px;
+    padding: 10px;
   }
   
 }
@@ -594,6 +611,8 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
