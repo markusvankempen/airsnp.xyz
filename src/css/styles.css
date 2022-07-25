@@ -1144,10 +1144,10 @@ pre code {
     max-width: 25%;
   }
 
-  .col-md-4 {
+  /*.col-md-4 {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%;
-  }
+  }*/
 
   .col-md-5 {
     flex: 0 0 41.6666666667%;
@@ -4464,10 +4464,7 @@ input[type=button].btn-block {
 
 .card {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
+  
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -4497,7 +4494,7 @@ input[type=button].btn-block {
 }
 
 .card-body {
-  flex: 1 1 auto;
+  /*flex: 1 1 auto;*/
   min-height: 1px;
   padding: 1.25rem;
 }
@@ -10092,6 +10089,15 @@ a.text-black:hover, a.text-black:focus {
 
 .invisible {
   visibility: hidden !important;
+}
+
+#contact > .container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container > .col-md-4{
+  padding: 10px;
 }
 
 @media print {
