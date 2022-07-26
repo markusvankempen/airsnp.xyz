@@ -10452,3 +10452,10 @@ body {
   justify-content: center;
   justify-self: center;
 }
+
+@media (max-width: 374px){
+  #contact > .container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
