@@ -200,6 +200,9 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  height: 250px;
+  width: 300px;
+    
 }
 
 svg {
@@ -585,6 +588,8 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -1116,10 +1121,10 @@ pre code {
     max-width: 25%;
   }
 
-  .col-md-4 {
+  /*.col-md-4 {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%;
-  }
+  }*/
 
   .col-md-5 {
     flex: 0 0 41.6666666667%;
@@ -3579,8 +3584,6 @@ input[type=button].btn-block {
   display: block;
   min-height: 1.5rem;
   padding-left: 1.5rem;
-  -webkit-print-color-adjust: exact;
-          color-adjust: exact;
 }
 
 .custom-control-inline {
@@ -4436,10 +4439,7 @@ input[type=button].btn-block {
 
 .card {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
+  
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -4469,7 +4469,7 @@ input[type=button].btn-block {
 }
 
 .card-body {
-  flex: 1 1 auto;
+  /*flex: 1 1 auto;*/
   min-height: 1px;
   padding: 1.25rem;
 }
@@ -10066,6 +10066,15 @@ a.text-black:hover, a.text-black:focus {
   visibility: hidden !important;
 }
 
+#contact > .container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container > .col-md-4{
+  padding: 10px;
+}
+
 @media print {
   *,
 *::before,
@@ -10122,6 +10131,7 @@ h3 {
 
   .container {
     min-width: 992px !important;
+    padding-bottom: 50px;
   }
 
   .navbar {
@@ -10254,11 +10264,12 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/mohawklake.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/satBrant.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  filter: grayscale(1);
 }
 .masthead h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10342,11 +10353,12 @@ body {
 
 .signup-section {
   padding: 15.5rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/smog.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  filter: grayscale(1);
 }
 .signup-section .form-inline input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -10398,4 +10410,16 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.items-center {
+  justify-content: center;
+  justify-self: center;
+}
+
+@media (max-width: 535px){
+  #contact > .container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
