@@ -85,6 +85,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+.datatype-title
+{
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.datatype-sub
+{
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -482,32 +494,46 @@ mark,
   height: auto;
 }
 
-.img-photos {
-  display: flex;
-  flex-grow: 0;
-  /* border: red solid 1px; */
-  justify-content: center;
+@media (max-width: 1025px){
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .img-photos{
+    padding-bottom: 25px;
+  }
+
+  .img-quotes{
+    padding-bottom: 75px;
+  }
 }
 
-.img-photo {
-  flex-direction: row;
-  object-fit: cover;
-  object-position: top;
-  margin: 30px;
-  /* border: solid 1px red; */
-  height: 250px;
-  width: 300px;
-}
+@media (min-width: 1025px) {
+  .img-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*flex-grow: 0;*/
+    /* border: red solid 1px; */
+    justify-content: center;
+    
+  }
+  .img-photo {
+    object-fit: cover;
+    object-position: top;
+    margin: 30px;
+    /* border: solid 1px red; */
+    
+  }
 
-.img-quotes {
-  flex-direction: column;
-  /* border: red solid 1px; */
-  /*background-color: rgba(54, 54, 54, 0.445);*/
-  margin: 10px;
-  margin-bottom: 10px;
-  height: 400px;
-  width: 300px;
-  font-size: .70rem;
+  .img-quotes {
+    /* border: red solid 1px; */
+    background-color: rgba(54, 54, 54, 0.445);
+    margin: 40px;
+    margin-bottom: 100px;
+    padding: 10px;
+  }
+  
 }
 
 .img-quote {
@@ -574,6 +600,15 @@ pre code {
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
+}
+
+.width-650 {
+  width: 650px;
+}
+
+.label {
+  padding-right: 20px;
+  padding: 25px;
 }
 
 .container,
@@ -10294,6 +10329,13 @@ body {
     line-height: 4rem;
   }
 }
+
+@media (max-width: 768px) {
+  .masthead h1 {
+    letter-spacing: normal;
+  }
+}
+
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
@@ -10311,7 +10353,7 @@ body {
 }
 
 .about-section {
-  padding-top: 5rem;
+  padding-top: 0rem;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
@@ -10319,7 +10361,7 @@ body {
 }
 
 .projects-section {
-  padding: 15rem 0;
+  padding: 5rem 0;
 }
 
 .projects-section .featured-text {
@@ -10329,6 +10371,10 @@ body {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
+  }
+  .projects-section .featured-text-right {
+    padding: 0 0 0 2rem;
+    border-right: 0.5rem solid #64a19d;
   }
 }
 .projects-section .project-text {
