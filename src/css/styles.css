@@ -10451,7 +10451,7 @@ body {
   justify-self: center;
 }
 
-@media (max-width: 374px){
+@media (max-width: 535px){
   #contact > .container{
     display: grid;
     grid-template-columns: 1fr;
