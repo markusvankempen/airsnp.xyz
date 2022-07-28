@@ -35,11 +35,14 @@ podman machine set --rootful
 podman machine start
 ln -s podman docker
 
+# Remove images 
+docker rmi -f $(docker images -aq)
+
 # Build Image
-docker build -t air-nscc-website .
+docker build -t air-snp-website .
 
 # Run container
-docker run -d -p 80:80 air-nscc-website
+docker run -d -p 80:80 air-snp-website
 
 # Confirm container is running
 docker container ls
@@ -50,12 +53,13 @@ docker login -u youerusename docker.io
 # list docker images
 docker images 
 
+
 # add a tag
-docker tag 79c9fadbe351 youerusename/air-nscc-website:v1
+docker tag 79c9fadbe351 youerusename/air-snp-website:v1
 
 # push docker images to dockerio
-docker push youerusename/air-nscc-website:v1
+docker push youerusename/air-snp-website:v1
 
 ```
 VERSION 20200725
-Markus
+Markus -mvk@ca.ibm.com
