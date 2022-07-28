@@ -35,6 +35,9 @@ podman machine set --rootful
 podman machine start
 ln -s podman docker
 
+# Remove images 
+docker rmi -f $(docker images -aq)
+
 # Build Image
 docker build -t air-snp-website .
 
@@ -49,6 +52,7 @@ docker login -u youerusename docker.io
 
 # list docker images
 docker images 
+
 
 # add a tag
 docker tag 79c9fadbe351 youerusename/air-snp-website:v1
