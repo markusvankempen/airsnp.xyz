@@ -88,14 +88,22 @@ h1, h2, h3, h4, h5, h6 {
 .datatype-title
 {
   text-align: center;
-  margin-bottom: 10rem;
+  margin-bottom: 4rem;
   font-size: 100px;
 }
 
 .datatype-sub
 {
   text-align: center;
-  margin-bottom: 10rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.datatype-sub1
+{
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 4rem;
 }
 
 p {
