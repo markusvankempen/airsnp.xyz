@@ -10432,33 +10432,35 @@ body {
 }
 
 img#map {
-  border: 20px solid rgba(255, 255, 255, 0.25);
-  border-radius: 50px;
+  border: 20px solid rgb(255, 255, 255);
+  border-radius: 40px;
+  background-color:rgba(40, 167, 69, 0.9);
+  
 }
 
 img#map1 {
-  border: 20px solid rgba(255, 255, 255, 0.25);
-  border-radius: 50px;
+  border: 20px solid rgb(255, 255, 255);
+  border-radius: 40px;
 }
 
 img#map2 {
-  border: 20px solid rgba(255, 255, 255, 0.25);
-  border-radius: 50px;
+  border: 20px solid rgb(255, 255, 255);
+  border-radius: 40px;
 }
 
 img#map3 {
-  border: 20px solid rgba(255, 255, 255, 0.25);
-  border-radius: 50px;
+  border: 20px solid rgb(255, 255, 255);
+  border-radius: 40px;
 }
 
 img#map4 {
-  border: 20px solid rgba(255, 255, 255, 0.25);
-  border-radius: 50px;
+  border: 20px solid rgb(255, 255, 255);
+  border-radius: 40px;
 }
 
 img#map5 {
-  border: 20px solid rgba(255, 255, 255, 0.25); /* !important; */
-  border-radius: 50px;
+  border: 20px solid rgb(255, 255, 255); /* !important; */
+  border-radius: 40px;
 }
 
 
