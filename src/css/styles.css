@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 {
   text-align: center;
   margin-bottom: 4rem;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 .datatype-sub
@@ -97,6 +97,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-top: 4rem;
   margin-bottom: 4rem;
+  font-size: 25px;
 }
 
 .datatype-sub1
@@ -104,6 +105,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-top: 0rem;
   margin-bottom: 4rem;
+  font-size: 25px;
 }
 
 p {
@@ -504,7 +506,7 @@ mark,
 }
 
 @media (max-width: 1025px){
-  img{
+ img{
     max-width: 100%;
     height: auto;
   }
@@ -639,6 +641,13 @@ pre code {
   .container-sm, .container {
     max-width: 540px;
   }
+  .datatype-title{
+    font-size: 100px;
+  }
+  .datatype-sub, .datatype-sub1{
+    font-size: 50px;
+  }
+
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -10405,6 +10414,8 @@ body {
   width: auto;
   height: auto;
   justify-content: center;
+  display: block;
+  margin: auto;
   /* margin-left: 5vw; */
 }
 
@@ -10412,35 +10423,44 @@ body {
   width: auto;
   height: auto;
   justify-content: center;
-  margin:auto;
+  display: block;
+  margin: auto;
   /* margin-left: 5vw; */
 }
 
 #map2 {
-  width: 500px;
-  height: 400px;
+  width: auto;
+  height: auto;
   justify-content: center;
+  display: block;
+  margin: auto;
   /* margin-left: 5vw; */
 }
 
 #map3 {
-  width: 500px;
-  height: 400px;
+  width: auto;
+  height: auto;
   justify-content: center;
+  display: block;
+  margin: auto;
   /* margin-left: 5vw; */
 }
 
 #map4 {
-  width: 450px;
-  height: 400px;
+  width: auto;
+  height: auto;
   justify-content: center;
+  display: block;
+  margin: auto;
   /* margin-left: 5vw; */
 }
 
 #map5 {
-  width: 450px;
-  height: 400px;
+  width: auto;
+  height: auto;
   justify-content: center;
+  display: block;
+  margin: auto;
   /* margin-left: 5vw; */
 }
 
