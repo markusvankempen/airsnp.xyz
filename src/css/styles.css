@@ -66,7 +66,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  text-align: left;
+  justify-content:center;
   background-color: #fff;
 }
 
@@ -10378,12 +10378,12 @@ body {
 }
 @media (min-width: 992px) {
   .projects-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    padding: 0 0 0 2 rem;
+    border-left: 0.3rem solid #64a19d;
   }
   .projects-section .featured-text-right {
     padding: 0 0 0 2rem;
-    border-right: 0.5rem solid #64a19d;
+    border-right: 0.3rem solid #64a19d;
   }
 }
 .projects-section .project-text {
@@ -10402,32 +10402,45 @@ body {
 }
 
 #map {
-  width: 400px;
-  height: 400px;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  /* margin-left: 5vw; */
+}
+
+#map1 {
+  width: auto;
+  height: auto;
+  justify-content: center;
+  margin:auto;
   /* margin-left: 5vw; */
 }
 
 #map2 {
   width: 500px;
   height: 400px;
+  justify-content: center;
   /* margin-left: 5vw; */
 }
 
 #map3 {
   width: 500px;
   height: 400px;
+  justify-content: center;
   /* margin-left: 5vw; */
 }
 
 #map4 {
-  width: 400px;
+  width: 450px;
   height: 400px;
+  justify-content: center;
   /* margin-left: 5vw; */
 }
 
 #map5 {
   width: 450px;
   height: 400px;
+  justify-content: center;
   /* margin-left: 5vw; */
 }
 
