@@ -10465,34 +10465,47 @@ body {
 }
 
 img#map {
-  border: 20px solid rgb(255, 255, 255);
+  border: 20px solid grey;
   border-radius: 40px;
-  background-color:rgba(40, 167, 69, 0.9);
   
 }
 
 img#map1 {
-  border: 20px solid rgb(255, 255, 255);
+  border: 20px solid grey;
   border-radius: 40px;
 }
 
 img#map2 {
-  border: 20px solid rgb(255, 255, 255);
+  border: 20px solid grey;
   border-radius: 40px;
 }
 
 img#map3 {
-  border: 20px solid rgb(255, 255, 255);
+  border: 20px solid grey;
   border-radius: 40px;
 }
 
 img#map4 {
-  border: 20px solid rgb(255, 255, 255);
+  border: 20px solid grey;
   border-radius: 40px;
 }
 
 img#map5 {
-  border: 20px solid rgb(255, 255, 255); /* !important; */
+  border: 20px solid grey; /* !important; */
+  border-radius: 40px;
+}
+
+.col-xl-8
+{
+  background-color: grey;
+  border-radius: 40px;
+  padding: 5px;
+  margin: auto;
+}
+
+.col-xl-8:hover
+{
+  background-color: lightgrey; /* !important; */
   border-radius: 40px;
 }
 
