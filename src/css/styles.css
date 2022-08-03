@@ -10408,6 +10408,15 @@ body {
     border-width: 0.25rem;
     width: 30%;
   }
+
+.col-xl-8
+{
+  background-color: none;
+  border-radius: 40px;
+  padding: 5px;
+  margin: auto;
+  border-right: none;
+}
 }
 
 /*
@@ -10509,8 +10518,6 @@ img#map5 {
   padding: 5px;
   margin: auto;
   border-right: 15px solid #f8f9fa;
-  
-  
 }
 
 .col-xl-8:hover
