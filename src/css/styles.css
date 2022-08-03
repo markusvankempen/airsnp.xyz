@@ -10504,11 +10504,11 @@ img#map5 {
 
 .col-xl-8
 {
-  background-color: 64a19d;
+  background-color: none;
   border-radius: 40px;
   padding: 5px;
   margin: auto;
-  border-right: 15px solid #dee2e6;
+  border-right: 15px solid #f8f9fa;
   
   
 }
