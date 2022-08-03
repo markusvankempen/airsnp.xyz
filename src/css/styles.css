@@ -658,9 +658,6 @@ pre code {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
-  #map1, #map2, #map3, #map4, #map5{
-    padding-right: 50px;
-  }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
