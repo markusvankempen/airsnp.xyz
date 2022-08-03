@@ -658,6 +658,9 @@ pre code {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
+  #map1, #map2, #map3, #map4, #map5{
+    padding-right: 50px;
+  }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -10410,16 +10413,18 @@ body {
   }
 }
 
+/*
 #map {
   width: auto;
   height: auto;
   justify-content: center;
   display: block;
   margin: auto;
-  /* margin-left: 5vw; */
-}
+  margin-left: 5vw;
+}*/
 
 #map1 {
+  max-width: 100%;
   width: auto;
   height: auto;
   justify-content: center;
@@ -10429,6 +10434,7 @@ body {
 }
 
 #map2 {
+  max-width: 100%;
   width: auto;
   height: auto;
   justify-content: center;
@@ -10438,6 +10444,7 @@ body {
 }
 
 #map3 {
+  max-width: 100%;
   width: auto;
   height: auto;
   justify-content: center;
@@ -10447,6 +10454,8 @@ body {
 }
 
 #map4 {
+  max-height: 500px;
+  max-width: 100%;
   width: auto;
   height: auto;
   justify-content: center;
@@ -10456,6 +10465,7 @@ body {
 }
 
 #map5 {
+  max-width: 100%;
   width: auto;
   height: auto;
   justify-content: center;
