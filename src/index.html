@@ -9,7 +9,7 @@
         <meta name="author" content="Markus van Kempen, Nicodemus Allan, Cole Spiers, Haiden Murphy" />
         <meta name="keywords" content="Markus van Kempen, Nicodemus Allan, Cole Spiers, Haiden Murphy, Ikea,ESP,BME680, SNP, snp air, Brantford, Canada, Six Nations, Air, Quality, weather, environment, Environmental, steam, stem, ptech, p-tech, sensor, iot, internet of things, lora, lorawan, data, data visualization" />
         <title>SNP Air Quality Project</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -140,12 +140,24 @@
         </section>
         
         <section class="projects-section bg-light" id="projects">
+            <!-- Humidity -->
             <iframe src="http://airsnp.xyz:3001/grafana/d-solo/3RdnpYkVz/day-data?orgId=1&from=1659470648541&to=1659557048541&panelId=2" width="450" height="200" frameborder="0"></iframe>
             <iframe src="http://airsnp.xyz:3001/grafana/d-solo/iFD0tYzVz/humid-week?orgId=1&from=1659012867361&to=1659617667362&panelId=2" width="450" height="200" frameborder="0"></iframe>
             <iframe src="http://airsnp.xyz:3001/grafana/d-solo/utVBpLkVk/humid-month?orgId=1&from=1659326400000&to=1662004799999&panelId=2" width="450" height="200" frameborder="0"></iframe>
             <br><br>
+            <!-- Temperature -->
+            <iframe src="http://airsnp.xyz:3001/grafana/d-solo/dHT3tLk4z/temperature-day?orgId=1&from=1659531443640&to=1659617843640&panelId=2" width="450" height="200" frameborder="0"></iframe>
+            <iframe src="http://airsnp.xyz:3001/grafana/d-solo/NSSIhYz4k/temperature-week?orgId=1&from=1659240000000&to=1659844799999&panelId=2" width="450" height="200" frameborder="0"></iframe>
             <iframe src="http://airsnp.xyz:3001/grafana/d-solo/JlDKhLz4k/temperature-month?orgId=1&from=1659326400000&to=1662004799999&panelId=2" width="450" height="200" frameborder="0"></iframe>
-        
+            <br><br>
+            <!-- PPM/PM2.5 -->
+            <iframe src="http://airsnp.xyz:3001/grafana/d-solo/4OE-OyzVk/pm-25-daily?orgId=1&from=1659535076892&to=1659621476892&panelId=2" width="450" height="200" frameborder="0"></iframe>
+            <iframe src="http://airsnp.xyz:3001/grafana/d-solo/qiC7OszVk/pm2-5-weekly?orgId=1&from=1659016497600&to=1659621297601&panelId=2" width="450" height="200" frameborder="0"></iframe>
+             
+            <br><br>
+            <!-- VOCs -->
+
+
         </section>
 
         <section class="projects-section bg-light" id="projects">
