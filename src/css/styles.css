@@ -10605,3 +10605,65 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+.dropbtn {
+  background-color: gray;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.dropbtn:hover{
+  background-color: #a3a3a3 !important;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+}
+
+.db-shadow{
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.show {
+  display: block;
+}
+
+.temp-db, .humid-db, .voc-db, .pm25-db{
+  padding: 15px;
+  max-width: 100%;
+}
+
+#temp-dropdown, #humid-dropdown, #voc-dropdown, #pm25-dropdown{
+  max-width: 80%;
+  margin: auto;
+}
+
+.dropdown-menu{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.add-color1{
+  background-color: lightgray;
+}
+
+.add-color2{
+  background-color: gray;
+}
