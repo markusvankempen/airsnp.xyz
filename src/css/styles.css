@@ -113,6 +113,13 @@ p {
   margin-bottom: 1rem;
 }
 
+.grafana
+{
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
