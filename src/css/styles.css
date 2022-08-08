@@ -10621,7 +10621,6 @@ body {
 
 .dropbtn:hover{
   background-color: #a3a3a3 !important;
-  color: black;
 }
 
 .dropdown {
@@ -10644,7 +10643,7 @@ body {
   display: block;
 }
 
-.temp-db, .humid-db, .voc-db, .pm25-db{
+#temp-db, #humid-db, #voc-db, #pm25-db{
   padding: 15px;
   max-width: 100%;
 }
@@ -10652,12 +10651,6 @@ body {
 #temp-dropdown, #humid-dropdown, #voc-dropdown, #pm25-dropdown{
   max-width: 80%;
   margin: auto;
-}
-
-.dropdown-menu{
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
 }
 
 .add-color1{
