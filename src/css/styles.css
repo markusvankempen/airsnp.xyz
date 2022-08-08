@@ -10435,6 +10435,7 @@ body {
 
 #map1 {
   max-width: 100%;
+  max-height: 350px;
   width: auto;
   height: auto;
   justify-content: center;
@@ -10457,6 +10458,7 @@ body {
 
 #map3 {
   max-width: 100%;
+  max-height: 500px;
   width: auto;
   height: auto;
   justify-content: center;
