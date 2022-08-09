@@ -10612,17 +10612,11 @@ body {
   justify-self: center;
 }
 
-@media (max-width: 535px){
-  #contact > .container{
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
+
 
 .dropbtn {
   background-color: gray;
   color: white;
-  padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -10672,4 +10666,29 @@ body {
 
 .add-color2{
   background-color: gray;
+}
+
+@media (max-width: 767.9px){
+  #contact > .container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  iframe{
+    height: 300px;
+  }
+  .dropbtn{
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+  #temp-db, #humid-db, #voc-db, #pm25-db{
+    padding: 5px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 575.9px){
+  iframe{
+    height: 150px;
+  }
 }
