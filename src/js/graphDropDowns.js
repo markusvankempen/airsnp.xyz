@@ -1,3 +1,9 @@
+/*
+    Dropdowns for grafan graphs 
+    Author: Nicodemus Allan
+    Date: 2022/08/09 V1
+*/
+
 //temp graphs
 document.getElementById('temp-btn').onclick = function() {show_temp_graphs()};
 
@@ -171,6 +177,7 @@ function changeBackgroundColor(id){
     //console.log(ul.querySelectorAll('.show').length);
 }
 
+//closes children of a dropdown when the parent was closed
 function closeChildren(id){
     const dropdown_children = document.getElementById(id).children;
     for (i = 0; i < dropdown_children.length; i++){
@@ -187,16 +194,11 @@ function closeChildren(id){
 
 //console.log(document.querySelector('.graphs'));
 
-const ul = document.querySelector('.graphs');
-const children = ul.children;
-
-// iterate over all child nodes
-Array.from(children).forEach(li => {
-    //console.log(li.innerText);
-});
-
+//const ul = document.querySelector('.graphs');
+//const children = ul.children;
 //console.log(ul.querySelectorAll('.show').length);
 
+//closes previously opened dropdowns to only have child one open at a time
 function dropdownLimiter(id, btn_id){
     const current_dropdown = document.getElementById(id);
     const par_dropdown_id = current_dropdown.parentNode.id;
@@ -223,6 +225,7 @@ function dropdownLimiter(id, btn_id){
     //console.log(par_dropdown_id);
 }
 
+//closes previously opened dropdowns to only have one parent open at a time
 function parrentDropdownLimiter(id, btn_id){
     const current_dropdown = document.getElementById(id);
     const par_dropdown_id1 = current_dropdown.parentNode.id;
