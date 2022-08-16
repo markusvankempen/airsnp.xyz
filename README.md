@@ -27,6 +27,8 @@ Add one or both of the two default machines (podman-machine-default and podman-a
 
 ```bash
 
+
+
 # podman setup
 brew install podman
 podman machine init  
@@ -46,6 +48,8 @@ docker run -d -p 80:80 air-snp-website
 
 # Confirm container is running
 docker container ls
+
+alias docker=podman
 
 # login to docker.io
 docker login -u youerusename docker.io
