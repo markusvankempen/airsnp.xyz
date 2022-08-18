@@ -10500,6 +10500,19 @@ body {
   /* margin-left: 5vw; */
 }
 
+#map6 {
+  max-height: 500px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  display: block;
+  margin: auto;
+  border-radius: 40px;
+  /* margin-left: 5vw; */
+
+}
+
 #map1:hover {
   outline: 20px solid #dee2e6; /* !important; */
   border-radius: 40px;
