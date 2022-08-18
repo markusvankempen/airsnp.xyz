@@ -10132,6 +10132,11 @@ a.text-black:hover, a.text-black:focus {
   grid-template-columns: 1fr 1fr;
 }
 
+.sensors > img{
+  width: 100%;
+  height: auto;
+}
+
 .container > .col-md-4{
   padding: 10px;
 }
@@ -10500,6 +10505,19 @@ body {
   /* margin-left: 5vw; */
 }
 
+#map6 {
+  max-height: 500px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  /* margin-left: 5vw; */
+
+}
+
 #map1:hover {
   outline: 20px solid #dee2e6; /* !important; */
   border-radius: 40px;
@@ -10692,4 +10710,10 @@ body {
   iframe{
     height: 150px;
   }
+}
+
+.pad{
+  padding: 50px;
+  border-radius: 20px;
+  background-color: lightgray;
 }
