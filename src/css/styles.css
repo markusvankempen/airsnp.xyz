@@ -10132,6 +10132,11 @@ a.text-black:hover, a.text-black:focus {
   grid-template-columns: 1fr 1fr;
 }
 
+.sensors > img{
+  width: 100%;
+  height: auto;
+}
+
 .container > .col-md-4{
   padding: 10px;
 }
@@ -10508,7 +10513,7 @@ body {
   justify-content: center;
   display: block;
   margin: auto;
-  border-radius: 40px;
+  border-radius: 10px;
   /* margin-left: 5vw; */
 
 }
