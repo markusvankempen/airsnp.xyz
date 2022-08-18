@@ -10706,3 +10706,9 @@ body {
     height: 150px;
   }
 }
+
+.pad{
+  padding: 50px;
+  border-radius: 20px;
+  background-color: lightgray;
+}
